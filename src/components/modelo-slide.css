@@ -1,0 +1,113 @@
+.modelo-slide-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.modelo-slide-interno {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  z-index: 3;
+  overflow: hidden;
+  max-width: 1142px;
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: row;
+  background-color: var(--dl-color-principal-branco);
+}
+.modelo-slide-image {
+  flex: 1;
+  width: 520px;
+  height: 640px;
+  object-fit: cover;
+}
+.modelo-slide-frame1000003600 {
+  gap: 32px;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.modelo-slide-image1 {
+  width: 40px;
+  object-fit: cover;
+}
+.modelo-slide-text {
+  fill: var(--dl-color-principal-azul);
+  color: var(--dl-color-principal-azul);
+  width: 100%;
+  height: auto;
+}
+.modelo-slide-text01 {
+  color: rgb(23, 23, 23);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+}
+.modelo-slide-indicaes {
+  gap: 19px;
+  display: none;
+  position: relative;
+  margin-top: auto;
+  align-items: center;
+}
+.modelo-slide-djctql1 {
+  width: 52px;
+  height: 55px;
+  border-radius: 6px;
+}
+.modelo-slide-vector {
+  width: 52px;
+  height: 55px;
+}
+.modelo-slide-vector1 {
+  width: 52px;
+  height: 55px;
+  box-sizing: content-box;
+}
+.modelo-slide-vector2 {
+  width: 52px;
+  height: 55px;
+}
+.modelo-slide-text02 {
+  fill: var(--dl-color-principal-azul);
+  color: var(--dl-color-principal-azul);
+}
+.modelo-slide-text07 {
+  font-weight: 700;
+}
+.modelo-slide-root-class-name {
+  height: 640px;
+}
+.modelo-slide-root-class-name1 {
+  height: 640px;
+}
+.modelo-slide-root-class-name2 {
+  height: 640px;
+}
+.modelo-slide-root-class-name3 {
+  height: 640px;
+}
+.modelo-slide-root-class-name4 {
+  height: 640px;
+}
+.modelo-slide-root-class-name5 {
+  height: 640px;
+}
+
+
+

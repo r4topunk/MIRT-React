@@ -349,6 +349,7 @@
 }
 .thq-section-max-width {
   width: 100%;
+  margin: 0 20px;
   max-width: var(--dl-size-size-maxwidth);
 }
 .thq-img-ratio-1-1 {
@@ -690,6 +691,45 @@
 }
 .BoxShadow {
   filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.20));
+}
+.FloatAnimation {
+  animation: float 6s ease-in-out infinite;
+}
+.AcordeaoContainer {
+  width: 100%;
+  height: auto;
+  margin: 32px 24px;
+  display: flex;
+  max-width: 1200px;
+  border-top: 3px solid #EBEBEB;
+  border-bottom: 3px solid #EBEBEB;
+  flex-direction: column;
+  background-color: var(--dl-color-principal-branco);
+}
+.overflow-visible {
+  overflow: visible;
+}
+
+.HoverScale:hover {
+  transform: scale(1.02);
+}
+.MaxWidthMaior {
+  margin: 0 20px;
+  max-width: 1400px;
+}
+.MaxWidthMenor {
+  margin: 0 20px;
+  max-width: 1200px;
+}
+.Pointer {
+  cursor: pointer;
+}
+.Rotating {
+  animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -webkit-animation: rotating 2s linear infinite;
 }
 .Título {
   font-size: 36px;

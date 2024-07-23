@@ -46,8 +46,26 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <!--This is the head section-->
+    <style>
+         @keyframes float {
+      	0% {
+      		transform: translatey(0px) rotate(0deg);
+      	}
+      	50% {
+      		transform: translatey(-20px) rotate(-2deg);
+      	}
+      	100% {
+      		transform: translatey(0px) rotate(0deg);
+      	}
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
+    <script
+      defer
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
   </body>
 </html>

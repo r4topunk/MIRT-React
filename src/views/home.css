@@ -6,41 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.home-navbar {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.home-container01 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: var(--dl-space-space-oneandhalfunits);
-  align-items: center;
-  justify-content: space-between;
-}
-.home-container02 {
-  gap: var(--dl-space-space-twounits);
-  flex: 0 0 auto;
-  width: auto;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-.home-vector {
-  width: 38px;
-  height: 35px;
-}
-.home-vector1 {
-  width: 240px;
-}
-.home-vector2 {
-  width: 134px;
-}
 .home-hero-banner {
   width: 100%;
   height: auto;
@@ -68,7 +33,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/página 1/hero%20fundo-1500w.png");
+  background-image: url("/Página Home/hero%20fundo-1500w.png");
 }
 .home-inner {
   flex: 0 0 auto;
@@ -77,7 +42,7 @@
   align-items: flex-start;
 }
 .home-interno {
-  gap: 32px;
+  gap: 40px;
   height: 783px;
   display: flex;
   padding: 20px;
@@ -130,6 +95,9 @@
   font-weight: 500px;
   font-stretch: normal;
 }
+.home-navlink {
+  display: contents;
+}
 .home-frame1000003354 {
   gap: 10px;
   display: flex;
@@ -138,6 +106,7 @@
   align-items: center;
   border-radius: 30px;
   justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-principal-verde);
 }
 .home-text04 {
@@ -181,7 +150,7 @@
   flex-shrink: 0;
   background-color: var(--dl-color-principal-branco);
 }
-.home-container03 {
+.home-container01 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -198,13 +167,13 @@
   overflow: hidden;
   align-items: flex-start;
   padding-top: 170px;
-  padding-left: 126px;
+  padding-left: 100px;
   border-radius: 30px;
-  padding-right: 126px;
+  padding-right: 100px;
   padding-bottom: 170px;
   background-size: cover;
   justify-content: space-between;
-  background-image: url("/página 1/fundo-secao2-1400w.png");
+  background-image: url("/Página Home/fundo-secao2-1400w.png");
 }
 .home-group1000003551 {
   width: 432px;
@@ -263,7 +232,7 @@
   flex-shrink: 0;
   mix-blend-mode: color-burn;
   background-size: cover;
-  background-image: url("/página 1/textura-secao2-1500w.png");
+  background-image: url("/Página Home/textura-secao2-1500w.png");
   background-blend-mode: screen;
 }
 .home-seo-2 {
@@ -277,7 +246,7 @@
   flex-shrink: 0;
   background-size: cover;
   justify-content: center;
-  background-image: url("/página 1/experiencia%20imersiva%20fundo-400h.png");
+  background-image: url("/Página Home/experiencia%20imersiva%20fundo-400h.png");
 }
 .home-interno2 {
   gap: -97px;
@@ -290,8 +259,6 @@
   align-self: flex-end;
   align-items: center;
   flex-shrink: 0;
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
 }
 .home-texto-ei {
   gap: 32px;
@@ -327,7 +294,7 @@
   font-weight: 700;
   text-decoration: underline;
 }
-.home-container04 {
+.home-container02 {
   flex: 0 0 auto;
   width: 800px;
   display: flex;
@@ -338,12 +305,13 @@
 .home-fundo2 {
   width: 100%;
   object-fit: cover;
+  mix-blend-mode: color-burn;
 }
 .home-oculos {
   top: 20px;
   left: 0px;
   right: 0px;
-  width: 100%;
+  width: 550px;
   margin: auto;
   position: absolute;
   object-fit: cover;
@@ -421,9 +389,10 @@
   height: auto;
   text-align: left;
 }
-.home-frame1000003421 {
+.home-indicaes {
   gap: 19px;
   display: flex;
+  position: relative;
   margin-top: auto;
   align-items: center;
 }
@@ -432,16 +401,16 @@
   height: 55px;
   border-radius: 6px;
 }
-.home-vector3 {
+.home-vector {
   width: 52px;
   height: 55px;
 }
-.home-vector4 {
+.home-vector1 {
   width: 52px;
   height: 55px;
   box-sizing: content-box;
 }
-.home-vector5 {
+.home-vector2 {
   width: 52px;
   height: 55px;
 }
@@ -456,7 +425,7 @@
   flex-shrink: 0;
   background-size: cover;
   justify-content: center;
-  background-image: url("/página 1/experiencia%20imersiva%20fundo-400h.png");
+  background-image: url("/Página Home/experiencia%20imersiva%20fundo-400h.png");
 }
 .home-interno4 {
   gap: -97px;
@@ -469,8 +438,8 @@
   align-self: flex-end;
   align-items: center;
   flex-shrink: 0;
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-oneandhalfunits);
 }
 .home-texto-ei1 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -494,10 +463,10 @@
   text-align: left;
   letter-spacing: 0em;
 }
-.home-text40 {
+.home-text37 {
   font-weight: 700;
 }
-.home-container05 {
+.home-container03 {
   flex: 0 0 auto;
   width: 673px;
   height: 100%;
@@ -524,7 +493,7 @@
   transition: 0.3s;
 }
 .home-oculos1:hover {
-  transform: rotate(-5deg) scale(1.1);
+  transform: scale(1.1);
 }
 .home-seo-5 {
   flex: 0 0 auto;
@@ -535,37 +504,42 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: center;
 }
-.home-container06 {
+.home-container04 {
   gap: 32px;
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: grid;
-  max-width: 1200px;
   align-items: flex-start;
   grid-row-gap: 80px;
   grid-template-columns: 1fr 1fr;
 }
-.home-container07 {
+.home-container05 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  transition: 0.3s;
   align-items: flex-start;
   flex-direction: column;
+  text-decoration: none;
+}
+.home-container05:hover {
+  cursor: pointer;
+  transform: scale(1.025);
 }
 .home-image1 {
   width: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.home-container08 {
+.home-container06 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
 }
-.home-container09 {
+.home-container07 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -577,19 +551,19 @@
   padding-bottom: 4px;
   background-color: var(--dl-color-principal-verde);
 }
-.home-text42 {
+.home-text39 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-family: "BlauerNue-ExtraLight_Italic";
 }
-.home-text43 {
+.home-text40 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
-.home-text46 {
+.home-text43 {
   font-weight: 700;
 }
-.home-container10 {
+.home-container08 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
@@ -602,13 +576,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.home-container11 {
+.home-container09 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
 }
-.home-container12 {
+.home-container10 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -620,19 +594,19 @@
   padding-bottom: 4px;
   background-color: var(--dl-color-principal-verde);
 }
-.home-text47 {
+.home-text44 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-family: "BlauerNue-ExtraLight_Italic";
 }
-.home-text48 {
+.home-text45 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
-.home-text49 {
+.home-text46 {
   font-weight: 700;
 }
-.home-container13 {
+.home-container11 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
@@ -645,13 +619,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.home-container14 {
+.home-container12 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
 }
-.home-container15 {
+.home-container13 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -663,19 +637,19 @@
   padding-bottom: 4px;
   background-color: var(--dl-color-principal-verde);
 }
-.home-text53 {
+.home-text50 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-family: "BlauerNue-ExtraLight_Italic";
 }
-.home-text54 {
+.home-text51 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
-.home-text55 {
+.home-text52 {
   font-weight: 700;
 }
-.home-container16 {
+.home-container14 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
@@ -688,13 +662,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.home-container17 {
+.home-container15 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
 }
-.home-container18 {
+.home-container16 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -706,19 +680,19 @@
   padding-bottom: 4px;
   background-color: var(--dl-color-principal-verde);
 }
-.home-text58 {
+.home-text55 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-family: "BlauerNue-ExtraLight_Italic";
 }
-.home-text59 {
+.home-text56 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
-.home-text60 {
+.home-text57 {
   font-weight: 700;
 }
-.home-container19 {
+.home-container17 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
@@ -731,13 +705,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.home-container20 {
+.home-container18 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
 }
-.home-container21 {
+.home-container19 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -749,19 +723,19 @@
   padding-bottom: 4px;
   background-color: var(--dl-color-principal-verde);
 }
-.home-text64 {
+.home-text61 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-family: "BlauerNue-ExtraLight_Italic";
 }
-.home-text65 {
+.home-text62 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
-.home-text66 {
+.home-text63 {
   font-weight: 700;
 }
-.home-container22 {
+.home-container20 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
@@ -774,13 +748,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.home-container23 {
+.home-container21 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
 }
-.home-container24 {
+.home-container22 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -792,12 +766,12 @@
   padding-bottom: 4px;
   background-color: var(--dl-color-principal-verde);
 }
-.home-text68 {
+.home-text65 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-family: "BlauerNue-ExtraLight_Italic";
 }
-.home-text69 {
+.home-text66 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
   font-weight: 700;
@@ -814,16 +788,15 @@
   justify-content: center;
   background-color: var(--dl-color-principal-verde);
 }
-.home-container25 {
+.home-container23 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
-  max-width: 1200px;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container26 {
+.home-container24 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
   width: 50%;
@@ -831,11 +804,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text70 {
+.home-text67 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
-.home-text72 {
+.home-text69 {
   font-weight: 700;
 }
 .home-form {
@@ -856,7 +829,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
 }
-.home-container27 {
+.home-container25 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -916,7 +889,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
 }
-.home-container28 {
+.home-container26 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -924,7 +897,7 @@
   display: flex;
   align-items: center;
 }
-.home-container29 {
+.home-container27 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -938,7 +911,7 @@
   width: 32px;
   height: 32px;
 }
-.home-text74 {
+.home-text71 {
   fill: var(--dl-color-principal-azul);
   color: var(--dl-color-principal-azul);
 }
@@ -955,7 +928,7 @@
 .home-image7 {
   top: 0px;
   right: 0px;
-  width: 48%;
+  width: 40%;
   bottom: 0px;
   height: 100%;
   margin: auto;

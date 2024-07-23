@@ -1,0 +1,25 @@
+.indicaes-indicaes {
+  gap: 19px;
+  display: flex;
+  position: relative;
+  margin-top: auto;
+  align-items: center;
+}
+.indicaes-djctql1 {
+  width: 52px;
+  height: 55px;
+  border-radius: 6px;
+}
+.indicaes-vector {
+  width: 52px;
+  height: 55px;
+}
+.indicaes-vector1 {
+  width: 52px;
+  height: 55px;
+  box-sizing: content-box;
+}
+.indicaes-vector2 {
+  width: 52px;
+  height: 55px;
+}
